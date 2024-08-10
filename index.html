@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Krishnendu Portfolio</title>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Portfolio</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Krishnendu</span><br></h1>
+                <h3 class="home__title"><span id="element"></span></h3>
+
+                <a href="https://drive.google.com/file/d/1gRDOELX9ueOk5bNP4dWGFYgNGSzj8iwP/view?usp=sharing" class="button" target="_blank">CV</a>
+            </div>
+
+           
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="./img/rik.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="./img/me.jpg" alt="" style="height: 75%;">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Krishnendu Dutta</h2>
+                    <p class="about__text">BTech graduate in Computer Science and Engineering from Durgapur Institute of Advanced Technology and Management,
+                        skilled in Java, C, HTML, CSS, JavaScript, JSP, Servlet, JDBC, and MySQL. Self-motivated and adept at leadership, time
+                        management, and team management. Seeking an entry-level position to leverage my technical and soft skills to contribute
+                        to innovative projects and drive technological advancements.
+
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Computer Skills</h2>
+                    
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-java skills__icon'></i>
+                            <span class="skills__name">Tailwind CSS</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">55%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">55%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxl-java fa-brands fa-java skills__icon"></i>
+                            <span class="skills__name">Java</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-java skills__icon'></i>
+                            <span class="skills__name">JDBC</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-java skills__icon'></i>
+                            <span class="skills__name">JSP & Servlet</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-java skills__icon'></i>
+                            <span class="skills__name">SQL</span>
+                        </div>
+                        <div class="skills__bar skills__65">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-java skills__icon'></i>
+                            <span class="skills__name">C</span>
+                        </div>
+                        <div class="skills__bar skills__65">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-java skills__icon'></i>
+                            <span class="skills__name">MS Office</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./img/work3.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Personal Project</h2>
+
+            <div class="work__container bd-grid">
+                
+                <a href="#" class="work__img" target="_blank">
+                    <img src="./img/ebook.jpeg" alt="" style="width: 100%;height: 100%;">
+                </a>
+                <a href="#" class="work__img" target="_blank">
+                    <img src="./img/hand.jpg" alt="" style="width: 100%;height: 100%;">
+                </a>
+                <a href="https://krish1916.github.io/quiz-app.github.io/" class="work__img" target="_blank">
+                    <img src="./img/download (1).jpeg" alt="" style="width: 100%;height: 100%;">
+                </a>
+                <a href="https://github.com/krish1916/E-commerce" class="work__img" target="_blank">
+                    <img src="./img/download.jpeg" alt="" style="width: 100%;height: 100%;">
+                </a>
+                <a href="https://krish1916.github.io/ngo-website-design.github.io/" class="work__img" target="_blank">
+                    <img src="./img/ngo.jpg" alt="">
+                </a><a href="https://krish1916.github.io/The-local-news.github.io/" class="work__img" target="_blank">
+                    <img src="./img/news.jpeg" alt="" style="width: 100%;height: 100%;">
+                </a>
+                <a href="https://aahar-resturant.web.app/" class="work__img" target="_blank">
+                    <img src="./img/download (2).jpeg" alt="" style="width: 100%;height: 100%;">
+                </a>
+                
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="https://formspree.io/f/xgejyorp"
+                method="POST" class="contact__form" >
+                    <input type="text" name="name" autocomplete="off" placeholder="Name" class="contact__input" required>
+                    <input type="mail" autocomplete="off" name="email" placeholder="Email" class="contact__input" required>
+                    <textarea name="message" autocomplete="off" id="" cols="0" rows="10" class="contact__input"></textarea required>
+                    <button type="submit" class="contact__button button">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Krishnendu</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/krishnendu.dutta.1800?mibextid=ZbWKwL" class="footer__icon" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <!-- <a href="https://github.com/krish1916" class="footer__icon" target="_blank"></a><i class='bx bxl-github'></i></a> -->
+            <a href="https://www.linkedin.com/in/krishnendu-dutta-85484a21b" class="footer__icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://instagram.com/krishnendu748?utm_source=qr&igshid=ZDc4ODBmNjlmNQ==" class="footer__icon" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon" target="_blank"><i class='bx bxl-twitter'></i></a>
+        </div>
+       
+    </footer>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>B.Tech</i> Graduate', '<i>Frontend</i> Developer', '<i>Problem</i> Solver'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
+    <!-- <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyWD0Oc0a_4diS8bXGIq5aPn8RSbx-fpJV3b2eQ1tLZXVm8wDAjMk6kCvqRzRNyOU3xXQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> -->
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="script.js"></script>
+</body>
+
+</html>
